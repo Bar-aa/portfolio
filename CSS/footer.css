@@ -1,6 +1,6 @@
 footer {
-    background-color: #333; /* Dark background for contrast */
-    color: #fff; /* White text */
+    background-color: #333; 
+    color: #fff; 
     padding: 20px;
     text-align: center;
   }
@@ -9,7 +9,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Allows the content to wrap on small screens */
+    flex-wrap: wrap; 
   }
   
   footer p {
@@ -34,13 +34,13 @@ footer {
   }
   
   footer nav ul li a:hover {
-    color: #ff6347; /* Adds a hover effect on the links */
+    color: aquamarine; 
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     footer .footer-content {
-      flex-direction: column; /* Stack content vertically on small screens */
+      flex-direction: column; 
       text-align: center;
     }
   
