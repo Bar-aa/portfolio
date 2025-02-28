@@ -1,0 +1,56 @@
+.terms-of-service {
+    text-align: center;
+    padding: 80px 10%;
+    background-color: #f4f7fc;
+}
+
+.terms-of-service h2 {
+    font-size: 2.5em;
+    color: #1f3b4d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.terms-of-service h3 {
+    font-size: 1.8em;
+    color: #162a3b;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.terms-of-service p {
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+.terms-of-service a {
+    color: #1f3b4d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.terms-of-service a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .terms-of-service {
+        padding: 50px 5%;
+    }
+
+    .terms-of-service h2 {
+        font-size: 2em;
+    }
+
+    .terms-of-service h3 {
+        font-size: 1.5em;
+    }
+
+    .terms-of-service p {
+        font-size: 1.1em;
+    }
+}

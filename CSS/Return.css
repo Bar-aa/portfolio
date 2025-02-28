@@ -1,0 +1,32 @@
+
+.return-policy {
+    text-align: center;
+    padding: 80px 10%;
+    background-color: #f4f7fc;
+}
+
+.return-policy h2 {
+    font-size: 2.5em;
+    color: #1f3b4d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.return-policy p {
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.return-policy a {
+    color: #1f3b4d;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.return-policy a:hover {
+    color: #162a3b;
+}
